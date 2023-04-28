@@ -1,0 +1,223 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  
+  #text-image{
+    z-index: 99999999;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .logo {
+    width: 150px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 40px;
+    list-style: none;
+  }
+  
+  .menu li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: #1c75bc;
+  }
+  
+  /* Hero Section */
+.hero {
+    height: 600px;
+    background-image: url('img/traffico.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  /* Testo sotto l'immagine Section */
+  #text-downimage{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .paragrafo-downimage{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  /* Blocchi Section */
+  .blocchis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .blocchi {
+    border-radius: 20px;
+    flex-basis: 30%;
+    margin: 30px;
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  
+  .blocchi:hover {
+    transform: translateY(-10px);
+  }
+  
+  .blocchi i {
+    font-size: 60px;
+    color: #37475a;
+    margin-bottom: 40px;
+  }
+  
+  .blocchi h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .blocchi p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .blocchi button {
+    border-radius: 15px;
+    background-color: #232f3e;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .blocchi button:hover {
+    background-color: #37475a;
+    transform: scale(1.05);
+  }
+  
+  .pulsante-testo {
+    display: block;
+    margin-left: 46.4%;
+    margin-top: 15px;
+  }
+
+  .pulsante-testo button {
+    border-radius: 15px;
+    background-color: #232f3e;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .pulsante-testo button:hover {
+    background-color: #37475a;
+    transform: scale(1.05);
+  }
+
+
+  /* Footer */
+  footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .footer-p {
+    padding-top: 30px;
+    height: 200px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-p h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-logo {
+    font-size: 36px;
+    font-weight: bold;
+  }
+ 
